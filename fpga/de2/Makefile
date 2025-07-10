@@ -12,6 +12,7 @@ PROJECT = hack
 TOP = top
 # verilog source files
 VERILOG += $(GIT_ROOT)/rtl/ps2/ps2_debounce.sv
+VERILOG += $(GIT_ROOT)/rtl/ps2/ps2_scancode2ascii.sv
 VERILOG += $(GIT_ROOT)/rtl/ps2/ps2_host.sv
 VERILOG += $(GIT_ROOT)/fpga/de2/uart/uart_baud.sv
 VERILOG += $(GIT_ROOT)/fpga/de2/uart/uart_tx.sv
